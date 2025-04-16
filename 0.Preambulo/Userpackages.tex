@@ -1,0 +1,33 @@
+\usepackage{float}  % Improves float positioning
+\usepackage{multirow}  % Merges rows in tables
+\usepackage{tabularx}  % Auto-adjust column widths
+\usepackage{caption}  % Customizes captions
+\usepackage{adjustbox}  % Adjusts box size/position
+\usepackage{xltabular}  % Multi-page tables support
+\usepackage{enumitem}  % Customizes lists
+\usepackage{makecell}  % Multi-line table cells
+\usepackage{animate}  % Enables animations
+\usepackage{longtable}  % Tables across pages
+\usepackage{graphicx}  % Includes graphics
+\usepackage{multicol}  % Multi-column text
+\usepackage{comment}  % Block comments
+\usepackage[absolute,overlay]{textpos}  % Absolute text positioning
+\usepackage{geometry}  % Customizes page layout
+\usepackage{eso-pic}  % Background images/text
+\usepackage{hyperref}  % Adds hyperlinks
+\usepackage{xcolor}  % Color management
+\usepackage{background}  % Document background
+\usepackage{lipsum}  % Generates placeholder text
+\usepackage[portuguese, english, spanish]{babel} 
+\usepackage[backend=biber,style=apa,autolang=other]{biblatex}  % autolang permite cambiar idioma dinámicamente
+\addbibresource{bibliography.bib}  % Archivo de bibliografía
+
+%%%---%%%---%%%---%%%--- Fuentes  ---%%%---%%%---%%%---%%%
+\definecolor{rosa}{HTML}{e94558} 
+\renewcommand{\section}{\@startsection{section}{1}{\z@}%
+                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                   {2.3ex \@plus.2ex}%
+                                   {\color{rosa}\normalfont\Large\bfseries}}
+\usepackage{sectsty} 
+\allsectionsfont{\color{rosa}} 
+

@@ -1,0 +1,43 @@
+\documentclass{article}
+\input{0.Preambulo/Userpackages}
+\begin{document}
+
+                 %%%---%%%---%%%---%%%--- Lenguage  ---%%%---%%%---%%%---%%%
+% Select language (only one should be active)
+\selectlanguage{english} % Switch to English
+%\selectlanguage{portuguese} % Switch to Portuguese
+\input{0.Preambulo/Cover}
+\vspace{10cm}
+\tableofcontents
+
+%%%------------------------------------- Index ------------------------------%%%
+\newpage
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract} 
+\input{Index/1. Abstract}
+
+\section*{Contextualization}
+\addcontentsline{toc}{section}{Contextualization}
+\input{Index/2. Contextualization}
+
+\section{Introduction}
+\input{Index/3. Introduction}
+
+\section{Objectives}
+\input{Index/4. Objectives}
+
+\section{Methods}
+\input{Index/5. Methods}
+
+\section{Results and discussion}
+\input{Index/6. Results and discussion}
+
+\section{Conclusions}
+\input{Index/7. Conclusions}
+
+\addcontentsline{toc}{section}{References} 
+\printbibliography
+
+%%%---%%%---%%%---%%%-----------  End index  -------------------%%%---%%%---%%%---%%%
+\input{0.Preambulo/end}
+\end{document}
