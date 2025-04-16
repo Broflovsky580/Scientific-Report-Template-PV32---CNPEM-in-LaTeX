@@ -5,8 +5,10 @@ This repository contains a basic LaTeX structure for writing a scientific report
 
 Author:
 
-
 Angie Lorena Pineda Morales
+
 Physics student – Universidad Distrital Francisco José de Caldas
+
 Participant in CNPEM PV32 Summer Program
+
 Contact: alpinedam@udistrital.edu.co
